@@ -1,0 +1,45 @@
+DECLARE N,num,isPrime,i 
+
+READ N 
+
+If N < 2 
+
+   Then 
+
+    WRITE There are no prime numbers from 1 to N 
+
+Else  
+
+   For num from 2 to N + 1 
+
+      Set isPrime = True 
+
+      For i from 2 to int(num**0.5) + 1 
+
+          If num % i == 0 
+
+               Then 
+
+      isPrime = False  
+
+          ENDIF 
+
+      ENDFOR 
+
+     If isPrime = True 
+
+          Then 
+
+              WRITE num 
+
+     ENDIF 
+
+     ENDFOR 
+
+  ENDFOR 
+
+  WRITE Prime numbers from 1 to N 
+
+ENDIF 
+
+END 

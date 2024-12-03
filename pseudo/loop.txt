@@ -1,0 +1,10 @@
+DECLARE N,i,sayi
+For i from 0 to 7
+   READ sayi
+   If sayi % 2 == 0 and sayi % 7 == 0
+       Then
+       N = N + 1
+   ENDIF
+ENDFOR
+WRITE There are N numbers that is both even and divisible by 7 based on your input
+END

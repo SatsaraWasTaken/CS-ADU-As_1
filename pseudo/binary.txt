@@ -1,0 +1,25 @@
+DECLARE N,M,kalan,result, 
+
+READ N 
+
+SET M = N, result =  
+
+WHILE True 
+
+   Kalan = M % 2  
+
+    Result = str(kalan) + result 
+
+    M = M//2 
+
+    If M == 0 
+
+         BREAK 
+
+    ENDIF 
+
+ENDWHILE 
+
+WRITE N converted to binary is result 
+
+END 
