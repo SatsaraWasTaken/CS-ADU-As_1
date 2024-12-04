@@ -20,6 +20,6 @@ WHILE True
 
 ENDWHILE 
 
-WRITE N converted to binary is result 
+WRITE N in binary is result 
 
 END 
